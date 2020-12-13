@@ -40,15 +40,7 @@ module.exports = {
     'jsdoc/require-returns-check': 1,
     'jsdoc/require-returns-type': 1,
     'jsdoc/require-description-complete-sentence': 1,
-    'no-param-reassign': [
-      'error',
-      {
-        props: false,
-        ignorePropertyModificationsFor: [
-          'state'
-        ]
-      }
-    ],
+    'no-param-reassign': ['error', { props: false }],
     'unicorn/better-regex': 'error',
     'unicorn/prefer-spread': 'error',
     'unicorn/prefer-string-slice': 'error',
