@@ -1,6 +1,6 @@
 {
   "name": "@kcnltv/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "git@github.com:kcNL/eslint.git",
   "author": "Stijn <stijn@kolkies.dev>",
