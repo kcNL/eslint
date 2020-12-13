@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:@typescript-eslint/recommended', 'airbnb-base'],
+  extends: ['airbnb-base', 'plugin:@typescript-eslint/recommended'],
   plugins: ['@typescript-eslint', 'jsdoc', 'unicorn'],
   rules: {
     '@typescript-eslint/return-await': 'error',
@@ -12,6 +12,8 @@ module.exports = {
       default: 'array',
       readonly: 'array'
     }],
+
+    "@typescript-eslint/no-unused-vars": "off",
     'no-return-await': 'off',
     'max-classes-per-file': 'off',
     'require-await': 2,
@@ -20,7 +22,7 @@ module.exports = {
     'no-console': 1,
     'no-shadow': 'off',
     'no-underscore-dangle': 'off',
-    'no-unused-vars': 1,
+    "no-unused-vars": "off",
     'no-unused-expressions': 'off',
     'no-useless-constructor': 'off',
     'new-cap': 'off',
